@@ -1,11 +1,12 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
+#
 
 import sys
 
@@ -22,33 +23,38 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
+            "YukkiString1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING1),
+            session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
+            "YukkiString2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING2),
+            session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
+            "YukkiString3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING3),
+            session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
+            "YukkiString4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING4),
+            session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
+            "YukkiString5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING5),
+            session_string=str(config.STRING5),
             no_updates=True,
         )
 
